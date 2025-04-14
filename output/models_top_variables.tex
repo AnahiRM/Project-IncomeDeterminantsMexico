@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\label{tab:top_features}
+\begin{tabular}{lll}
+\toprule
+\textbf{Model} & \textbf{$R^2$} & \textbf{Top 2 Features} \\
+\midrule
+\textbf{Gradient Boosting} & 0.4018 & 
+\begin{tabular}[c]{@{}l@{}}1. \texttt{MERCADO\_TRABAJO\_LOCAL} \\ 
+                           2. \texttt{ANIO $\times$ ESCOLARIDAD\_ACUMULADA} \end{tabular} \\
+\textbf{Linear Regression} & 0.3995 & 
+\begin{tabular}[c]{@{}l@{}}1. \texttt{ANIO $\times$ ESCOLARIDAD\_ACUMULADA} \\ 
+                           2. \texttt{ESCOLARIDAD\_ACUMULADA} \end{tabular} \\
+\textbf{Ridge Regression}  & 0.3994 & 
+\begin{tabular}[c]{@{}l@{}}1. \texttt{ANIO $\times$ ESCOLARIDAD\_ACUMULADA} \\ 
+                           2. \texttt{ESCOLARIDAD\_ACUMULADA} \end{tabular} \\
+\textbf{Lasso Regression}  & 0.3901 & 
+\begin{tabular}[c]{@{}l@{}}1. \texttt{EDAD$^2$} \\ 
+                           2. \texttt{ANIO} \end{tabular} \\
+\textbf{Random Forest}     & 0.3119 & 
+\begin{tabular}[c]{@{}l@{}}1. \texttt{ESCOLARIDAD\_ACUMULADA $\times$ ANIO} \\ 
+                           2. \texttt{MERCADO\_TRABAJO\_LOCAL} \end{tabular} \\
+\bottomrule
+\end{tabular}
+\end{table}
