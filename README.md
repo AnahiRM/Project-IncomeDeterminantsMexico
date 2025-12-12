@@ -54,11 +54,12 @@ The objective is **predictive and descriptive**, not causal.
 
 ## Repository Structure
 
+```text
 ├── README.md
 ├── LICENSE
 │
 ├── cleandata/
-│   └── combined_personas_sample.csv     # Final analytical dataset
+│   └── combined_personas_sample.csv      # Final analytical dataset
 │
 ├── code/
 │   ├── 00_sample_cleaning.ipynb          # Sampling and initial filtering
