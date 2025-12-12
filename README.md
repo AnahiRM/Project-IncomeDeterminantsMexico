@@ -86,6 +86,7 @@ The objective is **predictive and descriptive**, not causal.
 │
 └── lit_review/
     └── references/                       # Background literature (ML, education, income)
+```
 
 ---
 
