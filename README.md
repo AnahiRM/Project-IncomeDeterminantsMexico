@@ -53,6 +53,7 @@ The objective is **predictive and descriptive**, not causal.
 ---
 
 ## Repository Structure
+
 ├── README.md
 ├── LICENSE
 │
@@ -94,13 +95,5 @@ The objective is **predictive and descriptive**, not causal.
 - Education measured as years of schooling (no quality dimension)
 - Target encoding may absorb regional structure
 
----
 
-## Skills Demonstrated
-
-- Applied machine learning for socioeconomic data  
-- Feature engineering with high-cardinality variables  
-- Model comparison and cross-validation  
-- SHAP-based model interpretability  
-- Reproducible research workflow (Python, scikit-learn, LaTeX)
  
